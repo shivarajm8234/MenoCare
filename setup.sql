@@ -2,3 +2,6 @@ CREATE DATABASE IF NOT EXISTS menocare;
 CREATE USER IF NOT EXISTS 'admin'@'localhost' IDENTIFIED BY 'passwd';
 GRANT ALL PRIVILEGES ON menocare.* TO 'admin'@'localhost';
 FLUSH PRIVILEGES;
+
+
+
